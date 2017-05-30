@@ -49,6 +49,8 @@ func (m *Metric) Submit(value interface{}, timestamp time.Time) {
 		}
 	case time.Duration:
 		rv = v.Seconds() * 1e3
+	default:
+		rv = v
 	}
 
 	var md opentsdb.MultiDataPoint
