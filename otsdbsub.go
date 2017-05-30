@@ -1,4 +1,4 @@
-package main
+package openTSDBSubmitter
 
 import (
 	"bosun.org/cmd/scollector/collectors"
