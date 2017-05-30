@@ -1,0 +1,8 @@
+package: github.com/TrilliumIT/openTSDBSubmitter
+import:
+- package: bosun.org
+  subpackages:
+  - cmd/scollector/collectors
+  - collect
+  - opentsdb
+  - slog
